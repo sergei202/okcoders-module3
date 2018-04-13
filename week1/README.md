@@ -22,6 +22,6 @@ Angular CLI will automatically download and setup all the dependencies for you.
 Once it's done, `cd` into the new directory and start your app using `ng serve`.
 
 # Angular Tutorial
-Please read over the [Tour of Heros](https://angular.io/tutorial) Angular tutorial.
+Please read over the [Tour of Heroes](https://angular.io/tutorial) Angular tutorial.
 
 Don't worry, it's a lot of new material and we'll cover it all in class.  But seeing it before class will make it easier to grasp in class.
