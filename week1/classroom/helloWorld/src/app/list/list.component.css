@@ -1,0 +1,6 @@
+.remove {
+	color: red;
+	padding-left: 10px;
+	cursor: pointer;
+	font-size: 10px;
+}

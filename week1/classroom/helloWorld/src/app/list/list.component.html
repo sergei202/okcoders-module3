@@ -1,0 +1,9 @@
+<input [(ngModel)]="itemName">
+<button (click)="addItem()" [disabled]="!itemName">Add Item</button>
+
+<ul>
+	<li *ngFor="let item of items">
+		{{item}}
+		<span class="remove" (click)="removeItem(item)">X</span>
+	</li>
+</ul>

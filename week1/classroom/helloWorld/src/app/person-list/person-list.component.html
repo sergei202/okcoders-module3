@@ -1,0 +1,11 @@
+<input [(ngModel)]="newPerson.name" placeholder="Name">
+<input [(ngModel)]="newPerson.phone" placeholder="Phone">
+
+<button (click)="addPerson()" [disabled]="!newPerson.name || !newPerson.phone">Add</button>
+
+<table>
+	<tr *ngFor="let person of persons">
+		<td>{{person.name}}</td>
+		<td>{{person.phone}}</td>
+	</tr>
+</table>
