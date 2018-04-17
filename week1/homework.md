@@ -49,3 +49,34 @@ Here's an idea of what it should look like:
 - I used the Bootstrap [`page-header`](https://getbootstrap.com/docs/3.3/components/#page-header) class in my example.
 - If you get stuck with a white screen, remember to check your console for errors
 - Finally, if you need help, reach out to me!  That's why I'm here.
+
+
+## Day 2 - Tuesday 4/17
+
+Today we're going to articles to our blog site!
+
+### Article Component
+
+First thing we are going to do is create a component house our article data and views.  I suggest calling it `ArticleList`.
+
+Go ahead and move the the Side Menu and Main Area from `AppComponent` to `ArticleListComponent`.
+
+You should now have something that looks exactly the same as before (don't forget to move any CSS as well).
+
+### Article Data
+
+Inside our `ArticleListComponent`, we're going to add an `articles` property that'll be an array of article objects.
+I suggest each article object have a `title` and `body` property.
+
+### Display the Articles
+
+Use the `ngFor` directive to list the articles in the Side Menu area.  You can use a unordered list or whatever you want.
+
+You should have something that looks like this:
+
+![Blog List Example](http://sergei202.com/blog-list.png)
+
+We'll add the article body and navigation on Thursday!
+
+#### Hints
+- Read the [Tour of Heroes](https://angular.io/tutorial)
