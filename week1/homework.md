@@ -45,7 +45,7 @@ Here's an idea of what it should look like:
 
 #### Hints
 - Your blog doesn't have to look like mine at all, it just has to have the general layout.
-- Remember that CSS can only affect the component that's for.
+- Remember that CSS can only affect the component that it's for.
 - I used the Bootstrap [`page-header`](https://getbootstrap.com/docs/3.3/components/#page-header) class in my example.
 - If you get stuck with a white screen, remember to check your console for errors
 - Finally, if you need help, reach out to me!  That's why I'm here.
@@ -53,11 +53,11 @@ Here's an idea of what it should look like:
 
 ## Day 2 - Tuesday 4/17
 
-Today we're going to articles to our blog site!
+Today we're going to add articles to our blog site!
 
 ### Article Component
 
-First thing we are going to do is create a component house our article data and views.  I suggest calling it `ArticleList`.
+First thing we are going to do is create a component to house our article data and views.  I suggest calling it `ArticleList`.
 
 Go ahead and move the the Side Menu and Main Area from `AppComponent` to `ArticleListComponent`.
 
