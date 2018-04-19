@@ -80,3 +80,38 @@ We'll add the article body and navigation on Thursday!
 
 #### Hints
 - Read the [Tour of Heroes](https://angular.io/tutorial)
+
+## Day 3 - Thursday 4/19
+
+We're going to make the list of articles clickable and display `article.body` in the main area.
+
+### Setup
+
+First thing we need is to add a property to our `ArticleListComponent` to track the selected article.
+I suggest calling it `selectedArticle`.  We also want to initialize it to the first article in our array.
+
+### Display
+
+Now we need to add the `selectedArticle` binds to the markup.  Take our the "My Main Area" placeholder text
+and replace it with a `<h2>` and `<p>` tag containing `selectedArticle.title` and `selectedArticle.body`.
+
+You should have have the first article showing up in the main area!
+
+### Selecting Different Articles
+
+We need to make the `<li>`s in our article list clickable.  When clicked we need to change `selectedArticle` to the article that was clicked.
+
+The click expression can change `selectedArticle` directly, but try using a class method (function) to do it.
+
+### Bonus
+
+- Style the list elements to look like links.
+- Use [class bindings](https://angular.io/guide/template-syntax#class-binding) to make the selected article bold in the list.
+
+
+#### Hints
+- Remember to use `this` when accessing properties inside of the component class.
+- If you get stuck, ask for help!  Either from me or your fellow students.
+- Here's an example:
+
+![Blog Detail Example](http://sergei202.com/blog-detail.png)
