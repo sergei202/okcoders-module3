@@ -14,3 +14,6 @@
 
 - [Tour of Heroes - Routing](https://angular.io/tutorial/toh-pt5)
 - [Angular Router Guide](https://angular.io/guide/router)
+
+## ngx-bootstrap
+- https://valor-software.com/ngx-bootstrap/
