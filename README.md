@@ -11,4 +11,6 @@ You will only need three pieces of software for this module:
 - [NodeJS](https://nodejs.org/en/) (for running server-side Javascript)
 
 ### [Week 1 - April 14th](week1/README.md)
+
 Introduction to Angular.
+
