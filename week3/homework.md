@@ -20,3 +20,18 @@ Add another area to the `ExamplesComponent` that will add two numbers _on the se
 - A route on the server to do the heavy-lifting of adding two numbers
 
 You have everything you need to do that in this repo, all the pieces are there.
+
+## Part 3
+
+Create a new component that will allow you to add and display items stored on the server:
+
+- Create a component, call it `List` (`ng generate component List`)
+- Replace the `Examples` component with `List` (change `app-examples` to `app-list` in `home-component.html`)
+- First get your list working client-side, you'll need:
+	- An input field and button to add new items
+	- An array to store the items
+	- An unordered list and `*ngFor`
+- Once that is working, move the array server-side, you'll need:
+	- An express GET route to get the items (I suggest `/api/items`)
+	- An express POST route to add an item (I suggest `/api/item`)
+	- Wire up your frontend controller to use `HttpClient` to make calls to the backend
