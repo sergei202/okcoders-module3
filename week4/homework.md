@@ -9,7 +9,7 @@ The only changes from what was in class are:
  - More comments
  - Added a side menu with routing
 
-I want you guys to go through each area and make you **FULLY UNDERSTAND**:
+I want you guys to go through each area and make sure you **FULLY UNDERSTAND**:
 - Client
 	- Angular Routing
 	- `HttpClient`
