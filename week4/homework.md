@@ -34,3 +34,12 @@ We're going to start using git and Github much more. If you're not familiar with
 - [Github - Hello World](https://guides.github.com/activities/hello-world/)
 
 Be sure you understand git basics (adding files, committing, etc) and how to use git with Github.
+
+
+## Part 3
+
+#### Promises
+
+We'll be using more Promises in the next module.  It's time to learn about them!
+
+- [Simple Guide to ES6 Promises](https://codeburst.io/a-simple-guide-to-es6-promises-d71bacd2e13a?gi=7d2993194983)
